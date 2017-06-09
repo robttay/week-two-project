@@ -1,265 +1,310 @@
-                                                                                        /**/
-                                                                                    /**/
-                                                                                    
-                                                                                    body {
-                                                                                        font-family: 'PT Sans', sans-serif;
-                                                                                        color: #0B1942;
-                                                                                    }
-                                                                                    
-                                                                                    #nav-top {
-                                                                                        display: flex;
-                                                                                        background-color: #7DDFE8;
-                                                                                        color: white;
-                                                                                        width: 100%;
-                                                                                        height: 120px;
-                                                                                    }
-                                                                                    
-                                                                                    #copyright {
-                                                                                        background-color: #7DDFE8;
-                                                                                        color: white;
-                                                                                        margin: auto;
-                                                                                        width: 100%;
-                                                                                        height: 50px;
-                                                                                        padding-top: 10px;
-                                                                                    }
-                                                                                    
-                                                                                    #bottom {
-                                                                                        background-color: #7DDFE8;
-                                                                                        color: white;
-                                                                                        width: 100%;
-                                                                                        height: 120px;
-                                                                                        margin: auto;
-                                                                                        text-align: center;
-                                                                                    }
-                                                                                    
-                                                                                    #filmclub-logo {
-                                                                                        content: url('/Users/roberttaylor/Desktop/week-two-project/images/filmclub.png');
-                                                                                        background-color: #F5005B;
-                                                                                        width: 80px;
-                                                                                        height: 120px;
-                                                                                    }
-                                                                                    
-                                                                                    .restrict-width80 {
-                                                                                        width: 80%;
-                                                                                        text-align: center;
-                                                                                    }
-                                                                                    
-                                                                                    .restrict-width90 {
-                                                                                        width: 90%;
-                                                                                        background-color: #0B1942;
-                                                                                        text-align: left;
-                                                                                        padding-left: 20px;
-                                                                                    }
-                                                                                    
-                                                                                    #nav-home {
-                                                                                        background-color: #00A5BF;
-                                                                                        height: 30px;
-                                                                                        padding-top: 10px;
-                                                                                        width: 100%;
-                                                                                    }
-                                                                                    
-                                                                                    #nav-calendar {
-                                                                                        background-color: #00B7D3;
-                                                                                        height: 30px;
-                                                                                        padding-top: 10px;
-                                                                                    }
-                                                                                    
-                                                                                    #nav-join {
-                                                                                        background-color: #00D5E7;
-                                                                                        height: 30px;
-                                                                                        padding-top: 10px;
-                                                                                    }
-                                                                                    
-                                                                                    .index-h1 {
-                                                                                        background-color: #0B1942;
-                                                                                        color: white;
-                                                                                        padding-left: 10px;
-                                                                                    }
-                                                                                    
-                                                                                    .main-alignment {
-                                                                                        margin: 10px 10px;
-                                                                                    }
-                                                                                    
-                                                                                    section {
-                                                                                        background-color: #0B1942;
-                                                                                    }
-                                                                                    
-                                                                                    #rashomon {
-                                                                                        content: url('/Users/roberttaylor/Desktop/week-two-project/images/rashomon-poster.jpg');
-                                                                                        margin: 10px 10px;
-                                                                                        transform: scale(70%)
-                                                                                    }
-                                                                                    
-                                                                                    ul {
-                                                                                        list-style-type: circle;
-                                                                                    }
-                                                                                    
-                                                                                    .top-section {
-                                                                                        background-color: white;
-                                                                                        display: flex;
-                                                                                        width: 80%;
-                                                                                        margin: auto;
-                                                                                        margin-bottom: 10px;
-                                                                                    }
-                                                                                    
-                                                                                    .mid-section {
-                                                                                        background-color: white;
-                                                                                        color: #0B1942;
-                                                                                        display: flex;
-                                                                                        flex-wrap: wrap;
-                                                                                        width: 80%;
-                                                                                        margin: auto;
-                                                                                        padding-bottom: 10px;
-                                                                                    }
-                                                                                    
-                                                                                    .poster {
-                                                                                        margin: auto;
-                                                                                        padding: 5px;
-                                                                                        line-height: 5px;
-                                                                                    }
-                                                                                    
-                                                                                    .calendar-section {
-                                                                                        background-color: #0B1942;
-                                                                                        color: white;
-                                                                                        width: 100%;
-                                                                                    }
-                                                                                    
-                                                                                    .add-flex-wrap {
-                                                                                        display: flex;
-                                                                                        justify-content: flex-start;
-                                                                                        flex-wrap: wrap;
-                                                                                        width: 100%;
-                                                                                    }
-                                                                                    
-                                                                                    .date {
-                                                                                        background-color: white;
-                                                                                        flex: 1 12.37%;
-                                                                                        height: 50px;
-                                                                                        margin: 1px;
-                                                                                    }
-                                                                                    
-                                                                                    .day {
-                                                                                        background-color: #0B1942;
-                                                                                        width: 50%;
-                                                                                        height: 50%;
-                                                                                        text-align: center;
-                                                                                    }
-                                                                                    
-                                                                                    #day-fill {
-                                                                                        color: #0B1942;
-                                                                                        flex: 3 52%;
-                                                                                        margin-bottom: 60px;
-                                                                                    }
-                                                                                    
-                                                                                    #pink {
-                                                                                        background-color: #F5005B;
-                                                                                    }
-                                                                                    
-                                                                                    #img-radius {
-                                                                                        content: url('/Users/roberttaylor/Desktop/week-two-project/images/profile-placeholder.png');
-                                                                                        width: 90px;
-                                                                                        height: 92px;
-                                                                                        margin: auto;
-                                                                                        background-color: white;
-                                                                                        border: solid white;
-                                                                                        border-radius: 100%;
-                                                                                        flex: 1;
-                                                                                    }
-                                                                                    
-                                                                                    .input-box {
-                                                                                        width: 370px;
-                                                                                        padding: 5px;
-                                                                                        margin-bottom: 10px;
-                                                                                    }
-                                                                                    
-                                                                                    #button {
-                                                                                        width: 110px;
-                                                                                        height: 50px;
-                                                                                        background-color: #F5005B;
-                                                                                        color: white;
-                                                                                        margin-bottom: 40px;
-                                                                                    }
-                                                                                    
-                                                                                    .checks {
-                                                                                        margin: 10px 0px;
-                                                                                    }
-                                                                                    /*   ------ --V-- Medium Break --V- ------ */
-                                                                                    
-                                                                                    @media screen and (min-width: 545px) {
-                                                                                        .add-flex-center {
-                                                                                            display: flex;
-                                                                                            justify-content: space-around;
-                                                                                            width: 100%;
-                                                                                        }
-                                                                                        #nav-home {
-                                                                                            flex: 1 10%;
-                                                                                            height: 80px;
-                                                                                            padding-top: 40px;
-                                                                                        }
-                                                                                        #nav-calendar {
-                                                                                            flex: 1 7%;
-                                                                                            height: 80px;
-                                                                                            padding-top: 40px;
-                                                                                        }
-                                                                                        #nav-join {
-                                                                                            flex: 1 2%;
-                                                                                            height: 80px;
-                                                                                            padding-top: 40px;
-                                                                                        }
-                                                                                        #copyright {
-                                                                                            background-color: #7DDFE8;
-                                                                                            color: white;
-                                                                                            padding-top: 20px;
-                                                                                            flex: 2 30%;
-                                                                                        }
-                                                                                        .date {
-                                                                                            height: 90px;
-                                                                                            margin: 2px;
-                                                                                        }
-                                                                                        .day {
-                                                                                            width: 38%;
-                                                                                            height: 40%;
-                                                                                        }
-                                                                                        .top-form {
-                                                                                            width: 65%;
-                                                                                            display: flex;
-                                                                                            justify-content: space-between;
-                                                                                        }
-                                                                                        .top-inputs {
-                                                                                            display: flex;
-                                                                                            flex-direction: column;
-                                                                                        }
-                                                                                        .input-box {
-                                                                                            width: 280px;
-                                                                                            margin-right: 10px;
-                                                                                        }
-                                                                                        .textarea {
-                                                                                            margin: 10px 0px;
-                                                                                        }
-                                                                                        /*  ---------  Large Breakpoint --------  */
-                                                                                        @media screen and (min-width: 769px) {
-                                                                                            #large-break {
-                                                                                                display: flex;
-                                                                                                justify-content: center;
-                                                                                            }
-                                                                                            .top-section {
-                                                                                                flex: 1 50%;
-                                                                                                margin: 5px;
-                                                                                                margin: 5px 10px 5px 7px;
-                                                                                            }
-                                                                                            .mid-section {
-                                                                                                flex: 1 40%;
-                                                                                                margin: 5px 7px 5px 10px;
-                                                                                            }
-                                                                                            .poster {
-                                                                                                width: 32.5%;
-                                                                                            }
-                                                                                            .date {
-                                                                                                height: 100px;
-                                                                                                margin: 2px;
-                                                                                            }
-                                                                                            .day {
-                                                                                                width: 30%;
-                                                                                                height: 35%;
-                                                                                            }
-                                                                                        }
+/**/
+/**/
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: #0B1942;
+}
+
+#nav-top {
+  display: flex;
+  background-color: #7DDFE8;
+  color: white;
+  width: 100%;
+  height: 120px;
+}
+
+#copyright {
+  background-color: #7DDFE8;
+  color: white;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+}
+
+#bottom {
+  background-color: #7DDFE8;
+  color: white;
+  width: 100%;
+  height: 120px;
+  margin: auto;
+  text-align: center;
+}
+
+#filmclub-logo {
+  content: url('/Users/roberttaylor/Desktop/week-two-project/images/filmclub.png');
+  background-color: #F5005B;
+  width: 80px;
+  height: 120px;
+}
+
+.restrict-width80 {
+  width: 80%;
+  text-align: center;
+}
+
+.restrict-width90 {
+  width: 90%;
+  background-color: #0B1942;
+  text-align: left;
+  padding-left: 20px;
+}
+
+#nav-home {
+  background-color: #00A5BF;
+  height: 30px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+#nav-calendar {
+  background-color: #00B7D3;
+  height: 30px;
+  padding-top: 10px;
+}
+
+#nav-join {
+  background-color: #00D5E7;
+  height: 30px;
+  padding-top: 10px;
+}
+
+.index-h1 {
+  background-color: #0B1942;
+  color: white;
+  padding-left: 10px;
+}
+
+.main-alignment {
+  margin: 10px 10px;
+}
+
+section {
+  background-color: #0B1942;
+}
+
+#rashomon {
+  content: url('/Users/roberttaylor/Desktop/week-two-project/images/rashomon-poster.jpg');
+  margin: 10px 10px;
+  transform: scale(70%);
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.top-section {
+  background-color: white;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.mid-section {
+  background-color: white;
+  color: #0B1942;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.poster {
+  margin: auto;
+  padding: 5px;
+  line-height: 5px;
+}
+
+.calendar-section {
+  background-color: #0B1942;
+  color: white;
+  width: 100%;
+}
+
+.add-flex-wrap {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.date {
+  background-color: white;
+  flex: 1 12.37%;
+  height: 50px;
+  margin: 1px;
+}
+
+.day {
+  background-color: #0B1942;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+#day-fill {
+  color: #0B1942;
+  flex: 3 52%;
+  margin-bottom: 60px;
+}
+
+#pink {
+  background-color: #F5005B;
+}
+
+.top-inputs {
+  position: relative;
+}
+
+#img-radius img {
+  background-color: white;
+  border: solid white;
+  border-radius: 100%;
+  flex: 1;
+}
+
+#img-radius {
+  margin: auto;
+}
+
+.input-box {
+  width: 370px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#button {
+  width: 110px;
+  height: 50px;
+  background-color: #F5005B;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.checks {
+  margin: 10px 0px;
+}
+
+#position-adventure {
+  position: relative;
+}
+/*   ------ --V-- Medium Break --V- ------ */
+
+@media screen and (min-width: 545px) {
+  .add-flex-center {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  #nav-home {
+    flex: 1 10%;
+    height: 80px;
+    padding-top: 40px;
+  }
+  #nav-calendar {
+    flex: 1 7%;
+    height: 80px;
+    padding-top: 40px;
+  }
+  #nav-join {
+    flex: 1 2%;
+    height: 80px;
+    padding-top: 40px;
+  }
+  #copyright {
+    background-color: #7DDFE8;
+    color: white;
+    padding-top: 20px;
+    flex: 2 30%;
+  }
+  .date {
+    height: 90px;
+    margin: 2px;
+  }
+  .day {
+    width: 38%;
+    height: 40%;
+  }
+  .top-form {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-box {
+    width: 280px;
+    margin-right: 10px;
+  }
+  .textarea {
+    margin: 10px 0px;
+  }
+  .align-inputs {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  .column-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  .align-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .checkFlex {
+    flex: 46%;
+    margin-left: 10px;
+  }
+}
+
+/*  ---------  Large Breakpoint --------  */
+@media screen and (min-width: 769px) {
+  #large-break {
+    display: flex;
+    justify-content: center;
+  }
+  .top-section {
+    flex: 1 50%;
+    margin: 5px;
+    margin: 5px 10px 5px 7px;
+  }
+  .mid-section {
+    flex: 1 40%;
+    margin: 5px 7px 5px 10px;
+  }
+  .poster {
+    width: 32.5%;
+  }
+  .date {
+    height: 100px;
+    margin: 2px;
+  }
+  .day {
+    width: 30%;
+    height: 35%;
+  }
+  .checkFlex {
+    flex: 27%;
+  }
+  .column-inputs {
+    display: flex;
+    flex-direction: row;
+  }
+  .align-inputs {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+  .inputFlex {
+    flex: 1 50%;
+  }
+}
