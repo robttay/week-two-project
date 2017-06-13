@@ -5,6 +5,27 @@ body {
   font-family: 'PT Sans', sans-serif;
   color: #0B1942;
 }
+h2 {
+  background-color: #0B1942;
+  color: #FFFFFF;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+section a {
+  color: #00B7D3;
+  text-decoration: none;
+}
+section a:hover {
+  color: #00B7D3;
+  text-decoration: underline;
+}
 
 #nav-top {
   display: flex;
@@ -33,14 +54,11 @@ body {
 }
 
 #filmclub-logo {
-  content: url('./images/filmclub.png');
   background-color: #F5005B;
-  width: 80px;
-  height: 120px;
 }
 
-.restrict-width80 {
-  width: 80%;
+.nav-restrict-width {
+  width: 90%;
   text-align: center;
 }
 
@@ -85,7 +103,6 @@ section {
 }
 
 #rashomon {
-  content: url('./images/rashomon-poster.jpg');
   margin: 10px 10px;
   transform: scale(70%);
 }
@@ -95,7 +112,7 @@ ul {
 }
 
 .top-section {
-  background-color: white;
+  background-color: #E2E2E2;
   display: flex;
   width: 80%;
   margin: auto;
@@ -103,7 +120,7 @@ ul {
 }
 
 .mid-section {
-  background-color: white;
+  background-color: #E2E2E2;
   color: #0B1942;
   display: flex;
   flex-wrap: wrap;
@@ -199,6 +216,10 @@ ul {
     justify-content: space-around;
     width: 100%;
   }
+  .nav-restrict-width {
+    width: 42%;
+    text-align: center;
+  }
   #nav-home {
     flex: 1 10%;
     height: 80px;
@@ -269,6 +290,10 @@ ul {
   #large-break {
     display: flex;
     justify-content: center;
+  }
+  .nav-restrict-width {
+    width: 40%;
+    text-align: center;
   }
   .top-section {
     flex: 1 50%;
